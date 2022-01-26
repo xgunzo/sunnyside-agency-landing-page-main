@@ -232,11 +232,11 @@ body {
 .photography-image {
     background-image: url("images/mobile/image-photography.jpg");
     background-size: cover;
-    height: 35em;
+    height: 40em;
 }
 
 .photography {
-    padding-top: 22em;
+    padding-top: 25em;
 }
 
 .photography h1{
@@ -351,6 +351,8 @@ body {
     background-color: hsl(168, 43%, 59%);
     color: hsl(167, 40%, 24%);
     text-align: center;
+    margin: 0 auto;
+    display: flex;
 }
 
 .footer h1 {
@@ -359,7 +361,15 @@ body {
     font-family: "Barlow", sans-serif;
     font-weight: 900;
     font-size: 30px;
+    text-align: center;
 }
+
+
+.footer-nav h2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
 
 .footer h2 a {
     color: hsl(167, 40%, 24%); 
@@ -392,11 +402,14 @@ body {
     align-content: flex-start;
     margin: 0 auto;
     width: 60%;
+    text-align: center;
 }
 
 .footer .social-media a {
     text-decoration: none;
     color: hsl(167, 40%, 24%); 
+    margin: 0 auto;
+  
 }
 
 .facebook, .instagram, .twitter, .pinterest {
